@@ -1,0 +1,215 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html.body {
+    font-family: Arial, Helvetica, "微軟正黑體", sans-serif;
+}
+
+body {
+    font-family: "標楷體";
+}
+
+
+
+header {
+    margin: auto;
+    padding: 15px;
+    position: relative;
+}
+
+header h1 {
+    animation: food 6s cubic-bezier(.16, 1.52, .9, -0.85) infinite alternate;
+}
+
+@keyframes food {
+    0% {
+        transform: translateX(0px);
+    }
+
+    30% {
+        transform: translateX(100px);
+    }
+
+    75% {
+        transform: translateX(150px);
+    }
+
+    100% {
+        transform: translateX(0px);
+    }
+}
+
+
+
+header ul {
+    display: block;
+    text-align: right;
+    float: right;
+    font-size: 23px;
+    display: flex;
+    list-style: none;
+    position: absolute;
+    right: 5px;
+    top: 10px;
+
+}
+
+header li {
+
+    border: #d0b429d3 3px solid;
+    margin: 10px;
+    top: 20px;
+
+
+}
+
+header li a {
+    color: #320ad1;
+    text-decoration: none;
+
+}
+
+
+header li a:hover {
+    color: #8749e4;
+    font-weight: bolder;
+
+}
+
+nav img {
+
+    display: block;
+    margin: auto;
+    width: 100%;
+}
+
+div.box {
+    display: flex;
+
+
+}
+
+aside {
+    background-color: #4cb5d2a7;
+    width: 20%;
+
+
+}
+
+aside ul {
+    list-style: none;
+}
+
+aside li {
+    display: block;
+    text-align: center;
+    margin: 35px;
+    border-bottom: #6f63db 2px dashed;
+}
+
+aside li a {
+    font-size: 32px;
+    font-weight: bolder;
+    text-decoration: none;
+    color: #0704e7;
+}
+
+aside li a:hover {
+    font-size: 36px;
+    font-style: italic;
+    color: #6f63db;
+}
+
+
+aside a span {
+    font-family: "sosa";
+
+}
+
+aside li a:hover span {
+    transform: scale(3);
+    color: #5b07da;
+}
+
+@font-face {
+    font-family: "sosa";
+    src: url(./font/sosa-regular-webfont.woff), url(./font/sosa-regular-webfont.ttf);
+}
+
+section {
+    background-color: #e29f0e61;
+    width: 80%;
+    text-align: left;
+
+}
+
+section h3 {
+    font-size: 30px;
+    color: #c5a113;
+    text-align: center;
+    margin: 40px 80px 20px;
+    background: -moz-linear-gradient(-45deg, rgba(30, 87, 153, 1) 0%, rgba(89, 148, 202, 1) 62%, rgba(95, 154, 207, 0.7) 68%, rgba(125, 185, 232, 0) 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, rgba(30, 87, 153, 1) 0%, rgba(89, 148, 202, 1) 62%, rgba(95, 154, 207, 0.7) 68%, rgba(125, 185, 232, 0) 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, rgba(30, 87, 153, 1) 0%, rgba(89, 148, 202, 1) 62%, rgba(95, 154, 207, 0.7) 68%, rgba(125, 185, 232, 0) 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    border-radius: 50%;
+}
+
+section figure {
+    display: flex;
+    border-radius: 25%;
+    vertical-align: bottom;
+    flex-wrap: wrap;
+
+}
+
+section h4 {
+    font-style: italic;
+    font-size: 26px;
+    color: cornflowerblue;
+    padding: 20px 250px;
+    text-align: left;
+
+
+
+}
+
+section p {
+    font-size: 22px;
+    text-align: justify;
+    padding: 10px 10px 40px 30px;
+    width: 1000px;
+    margin: 0 auto;
+    height: auto;
+}
+
+section img {
+    margin: 20px;
+    border-radius: 50%;
+    max-width: 100%;
+    height: auto;
+    float: right;
+}
+
+
+footer {
+    background-color: #e7e716b6;
+    clear: both;
+    padding: 20px;
+}
+
+footer h2 {
+    text-align: center;
+}
+
+/* 平板CSS設定,與桌機不同的設定才打 */
+@media screen and (max-width: 1200px) and (min-width:769px) {
+
+
+
+    /* 手機CSS設定,與桌機不同的設定才打 */
+    @media screen and (max-width: 768px) {}

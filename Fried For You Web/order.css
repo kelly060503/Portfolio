@@ -1,0 +1,50 @@
+body {
+    font-family: "標楷體";
+}
+
+aside {
+    font-family: "標楷體";
+}
+
+#OD {
+
+    display: flex;
+    border-radius: 25%;
+    vertical-align: bottom;
+    flex-wrap: wrap;
+    font-family: "標楷體";
+}
+
+.cookie {
+    margin: 16px;
+    font-size: 26px;
+}
+
+.cookie:hover {
+    transform: scale(1) translate(-2px, -6px);
+    box-shadow: 2px 4px -1px;
+  
+}
+
+.cookie img {
+    border-radius: 35%;
+    text-align: center;
+}
+
+section h3 {
+    font-family: "標楷體";
+}
+
+section h4 {
+    text-align: center;
+    vertical-align: bottom;
+
+}
+
+section h5 {
+    text-align: center;
+    vertical-align: bottom;
+    font-size: 20px;
+    margin: 5px;
+
+}

@@ -1,0 +1,153 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html.body {
+    font-family: Arial, Helvetica, "微軟正黑體", sans-serif;
+}
+
+body {}
+
+
+header {
+    margin: auto;
+    padding: 15px;
+    position: relative;
+}
+
+
+
+
+header ul {
+    display: block;
+    text-align: right;
+    float: right;
+    font-size: 23px;
+    display: flex;
+    list-style: none;
+    position: absolute;
+    right: 5px;
+    top: 10px;
+
+}
+
+header li {
+
+    border: #d0b429d3 3px solid;
+    margin: 10px;
+    top: 20px;
+
+
+}
+
+header li a {
+    color: #320ad1;
+    text-decoration: none;
+
+}
+
+
+header li a:hover {
+    color: #8749e4;
+    font-weight: bolder;
+
+}
+
+nav img {
+
+    display: block;
+    margin: auto;
+    width: 100%;
+}
+
+aside {
+    background-color: #d7c168a7;
+    width: 20%;
+    float: left;
+    margin: auto;
+    height: 800px;
+
+}
+
+aside ul {
+    list-style: none;
+}
+
+aside li {
+    display: block;
+    text-align: center;
+    margin: 35px;
+
+}
+
+aside li a {
+    font-size: 28px;
+    font-weight: bolder;
+    text-decoration: none;
+    color: #0704e7;
+}
+
+aside li a:hover {
+    font-size: 30px;
+    font-style: italic;
+    color: #6f63db;
+}
+
+
+aside a span {
+    font-family: "sosa";
+
+}
+
+aside li a:hover span {
+    transform: scale(3);
+    color: #5b07da;
+}
+
+@font-face {
+    font-family: "sosa";
+    src: url(../../font/sosa-regular-webfont.woff), url(../../font/sosa-regular-webfont.ttf);
+}
+
+section {
+    background-color: #e29f0e61;
+    width: 80%;
+    float: right;
+    margin: auto;
+    height: 800px;
+    text-align: left;
+
+}
+
+section h3 {
+    font-size: 24px;
+    text-align: center;
+    margin: 30px 80px 10px;
+    ackground: -moz-linear-gradient(-45deg, rgba(30, 87, 153, 1) 0%, rgba(89, 148, 202, 1) 62%, rgba(95, 154, 207, 0.7) 68%, rgba(125, 185, 232, 0) 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, rgba(30, 87, 153, 1) 0%, rgba(89, 148, 202, 1) 62%, rgba(95, 154, 207, 0.7) 68%, rgba(125, 185, 232, 0) 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, rgba(30, 87, 153, 1) 0%, rgba(89, 148, 202, 1) 62%, rgba(95, 154, 207, 0.7) 68%, rgba(125, 185, 232, 0) 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    border-radius: 50%;
+}
+
+section p {
+    font-size: 20px;
+    text-align: justify;
+    margin-bottom: 10px;
+    padding: 20px;
+    width: 1000px;
+    height: 40px;
+}
+
+footer {
+    background-color: #e7e716b6;
+    clear: both;
+    padding: 20px;
+}
+
+footer h2 {
+    text-align: center;
+}
